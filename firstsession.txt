@@ -1,0 +1,24 @@
+This is my first session notes. Due to being out of town for more than a week, I will be turning it in late.
+
+Computer - A combination of hardware and software
+
+Hardware - Parts you can touch (mouse, motherboard, hard disk)
+CPU - brain of computer - gives the quick answers
+RAM - memory of computer - like scratch pad - temporary work is here
+Hard Disk - storing information - book - permanent work is here
+
+Software - Instructions and Data, program
+Operator - Turning computer on and off (Windows,HP)
+Program - set of instructions (Read (action or instruction) Harry Potter book for 30 minutes (rest is data).
+
+Decimal System - ones, tens, hundreds place (32: (3*10) + (2*1))
+Binary - 0-1, Base 2 so, 1,2,4,8,16..
+Binary to Decimal: 100110 would be 38 in decimal form. Since it basically 32+4+2 = 38
+Decimal to Binary: Split 38 into multiples of 2. That would be 32,4,2 and find places of those numbers
+
+Why Binary?
+* Computers understand binary - software applications make it easier for us
+* Each letter is a specific number like A=65 - the computer sees it as 01000001
+ HELLO =  1001000 1000101 1001100 1001100 1001111
+
+    
