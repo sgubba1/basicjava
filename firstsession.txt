@@ -20,5 +20,6 @@ Why Binary?
 * Computers understand binary - software applications make it easier for us
 * Each letter is a specific number like A=65 - the computer sees it as 01000001
  HELLO =  1001000 1000101 1001100 1001100 1001111
+							-Srinidhi :)
 
     
