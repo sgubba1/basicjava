@@ -1,1 +1,48 @@
 This is my third session notes.
+Git 
+- Control System... Helps make sharing documents and saving work easier
+Use of git- Taking notes, exercises, and quizes
+Useful to look through work again
+Useful for resume! Hirers look at it!
+
+Process to putting something in github
+1. Got to repository (basicjava) Exp:  https://github.com/sgubba1/basicjava.git 
+2. Copy the info of repository
+3. Got to cmd prompt and type: 
+cd \
+md gitlearn
+cd gitlearn
+git clone aboveurl
+4. This brings the items in repository into computer
+
+To add files into repository 
+1. Make file (3.txt)
+2. Save file
+3. Type git status - says changes
+4. Type git add* - to add to local git
+5. Type git staus - to see all files
+6. Type git commit -m "Something" - puts in git
+7. Type git push origin master - to push all changes into your github account
+
+To modify a file
+1. open command prompt
+2. cd \
+3. cd gitlearn\basicjava
+4. notepad session3.txt
+5. **New Notes**
+6. Go to file and save
+7. quit notepad
+8. git status
+9. git add *
+10. git commit -m "comment"
+11. git push origin master
+
+Deleting file
+Use del command
+
+***************
+Changing Eclipse Workspace
+1.Go to eclipse
+2. File --> Switch Workspace --> Other
+3.Got to cmd prompt and type git status and other drills!
+
