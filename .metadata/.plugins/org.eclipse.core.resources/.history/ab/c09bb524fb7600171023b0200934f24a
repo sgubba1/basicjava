@@ -1,0 +1,16 @@
+package agecondition;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age = 13;
+		
+		if (age < 13); {
+			System.out.println("You are a kid.");
+			
+		} if (13 < age < 19);
+			System.out.println("You are a teen");
+	}
+
+}

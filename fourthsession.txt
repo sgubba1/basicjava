@@ -1,0 +1,100 @@
+git Variables - change value by assigning new one
+(x=2, x=3): 2 and 3 are constants
+
+Data Types - Needs specific type of data (age=14; street=Tuscon)
+Exp: Boolean (T or F), String (series of alphabets), integers, and doubles (decimals), 
+Format:
+Datatype VariableName = value ; [int age=14;]
+Strings are represented in double quotes(""). Note : Not variables(ex:name) but their values (ex:"sairama") [string street="Glenlakes";]
+
+Syntax - grammar to programming
+Exp: ";", "()","="
+
+If statement - change of path based on certain condition
+ - IF it is Sunday or Saturday, you don't go to school, ELSE you need to go to school.. :(
+ - Conditions are shown through  IF , ELSE IF and ELSE statements (but they are lowercase in the program
+
+Program:
+
+int age = 13;
+
+    if( age > 15){
+        System.out.println("you can get drivers permit");
+    }else if( age == 15){
+        System.out.println("Congratulations. today is the day where you can apply for permit.");
+    }else{
+        System.out.println("Sorry, please wait till you are 15");
+    }
+
+Notes on program:
+-int age = 13; --- variable
+-if (age > 15) System.out.println("you can get your drivers permit"); --- if the age is GREATER than 15, then you can get your drivers permit
+-else if(age == 15) System.out.println("Congratulations. today is the day wher you can apply for permit."); --- if you ARE 15, thene you can apply for your permit today
+-else Ssytem.out.println("Sorr,please wait till you are 15"); --- If you don't match the conditions, you are NOT READY to get your permit until you are 15.
+
+Syntax for program:
+  if( anything that evaluates to true/false){
+    }else if(anything that evaluates to true/false){
+    }else{
+        // Anything does not match above.
+    }
+
+-"==" Two equal signs means you have to be exactly the correct value. == (comparing the int age to the ==value)
+-"=" One equal is assigning the current value to the variable. = (Setting the int value)
+-">" Greater than signs means that the int value should be greater than the value given next to sign. >
+-"{}" Curly brackets are used for set of instructions that are related well, like having the same condition. they will be inside the same curly brackets.
+
+Looping - repeating
+Life Exp: Running in track for ten laps.. Continue till 10 are done
+
+loop program
+ int i;  // For counting in loops usually variable name 'i' is used 
+
+    for(i=0 ; i<10 ; i++){
+        System.out.println("running :" + (i+1));
+    }
+Notes on program:
+-program runs 10 times since i<10
+-initial amount i=0
+-i=0 is starting and the loop is in following order:
+	Start. i=0
+	1.  i<10 (Continues if true)
+	2.  System.out.println(running :" = (i+1));
+	Step 2 prints a running statement and add a number to i so for the next time it will be accurate for i until i is false
+	10<10 --- condition is false
+
+Syntax for program:
+for( initialiation_onetime ; condition_which_should_return_true_or_false ; do_some_increment_which_runs_for_each_loop){
+        somestatements_which_will_execute_aslongas_theconditionis_true
+    }
+Step 1. Create a start value 
+Step 2. If condition is true continue on, else stop
+Step 3. Execute this loop (statement)
+Step 4. Continue creating loop until the condition is false
+
+Naming Variables
+Bad exps: 
+Int x;
+String y;
+double z;
+
+Good exp: Gives entire data
+int age;
+String name;
+double price;
+
+Commenting: Gives u notes in program
+- start with // for comments (//this loops prints 10 statements.)
+
+Indentation - tabs and spaces needed to organize info needed
+
+Fixing syntax errors - shows red x when there is mistakes
+hover over the error when line under id red
+
+Matching curly brackets- very inportant
+block - two curly brackets
+Note: One does not have to end to have another one start.
+
+
+
+
