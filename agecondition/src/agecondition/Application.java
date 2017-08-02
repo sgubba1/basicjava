@@ -12,14 +12,14 @@ public class Application {
 		} 
 		
 		else if ( age >=13 && age <=19) {
-			System.out.println("You are a teen");
+			System.out.println("You are a teen.");
 			
 		}
 		else if (age >=20 && age <=60 ) {
-			System.out.println("You are an adult");
+			System.out.println("You are an adult.");
 		}
 		else 
-			System.out.println("You are a senior citizen");
+			System.out.println("You are a senior citizen.");
 			
 		
 	}

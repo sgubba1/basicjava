@@ -1,0 +1,15 @@
+package numbersbyten;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		var count = 5; 
+		while (count = 5; count <= 95; count= + 5  );
+			System.out.println("count");
+			count = count + 5;
+		}
+			
+
+	}
