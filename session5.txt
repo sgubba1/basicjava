@@ -1,0 +1,105 @@
+This is my fifth session notes:
+ INPUT FROM USER PROGRAM - They put in info..
+
+import java.util.Scanner;
+public class Application {
+	public static void main(String[] args) {
+		System.out.print("first number:");
+		Scanner scanner = new Scanner(System.in);
+		int firstNumber = scanner.nextInt();
+		
+		System.out.print("second number:");
+		int secondNumber = scanner.nextInt();
+	}
+}
+
+Notes for program:
+- variable is scanner - a type of scanner
+- nextint() = User Input
+
+Steps for program:
+1) Visualize/Understand how the program works.Note the orders, questions, etc.
+2) Think about how you are going to solve the program. Use a notebook. Go through some samples of user answers.
+3) Start program. Write syntax.
+	if(...){
+	}else{
+		System.out.println(..)
+	}
+ - if statements are used here for logic. They are boolean exps. so give yes/no ans..
+
+Conditional Programs:
+	Division Program
+int x = 5;
+		int y = 2;
+		System.out.println(x/y);
+
+		double x1 = 5;
+		double y1 = 2;
+		System.out.println(x1/y1);
+Answer - 2.5
+
+	Remainder Program
+Remainder java program:
+import java.util.Scanner;
+
+public class Application {
+	public static void main(String[] args) {
+
+		System.out.print("give number:");
+		Scanner scanner = new Scanner(System.in);
+		int number = scanner.nextInt();
+		
+		// number % 2 is zero it is even
+		// else it is odd
+		
+		if(number %2 == 0) {
+			System.out.println(number + " is even");
+		}else {
+			System.out.println(number + " is odd");
+		}
+	}
+}
+- 5 % 2 = 1, 6 % 2 = 0
+	Pseudo Logic: 
+		is number % 2 value is 0 then
+    			 number is even
+		otherwise 
+    			number is odd
+
+LOOP Program:
+Syntax
+ for( ;   ;  ){
+
+    }
+Description of program - taking a number given by user, and mustiplying it with the numbers 1-10.
+	Pseudo Logic: print 10 times starting from 1
+		      number = user input
+			starting from 1 to 10
+			number * counter
+Program:
+import java.util.*;
+public class Application {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("table number:");
+		int number = scanner.nextInt();
+		for(int i=1; i<=10; i++) {
+			int answer = number * i;
+			System.out.println(number + " *" + " " + i + " = " + " " + answer); [the +++ thing is giving the table number like 5 * 2 = 10]
+		}
+	}
+}
+	Actual program Logic:
+		1) Initialization (i = 1)
+		2) Condition (number <= 10)
+		3) Increment (i=i+1)
+		4) Body of the For (int answer = number * 1; System.out.println(answer);
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Eclipse Shortcuts -Cuz life is meant for them..
+Short keys make it fatser-
+   Exps: 
+	New Class - Go to new and click c
+	If there is an UNDERLINE under some words in menu bar, you can get to it faster by clicking the first letter and ALT
+	Alt F - new java project
+	
