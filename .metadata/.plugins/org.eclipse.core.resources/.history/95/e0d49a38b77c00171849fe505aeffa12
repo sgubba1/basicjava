@@ -1,0 +1,8 @@
+
+public class Person{ 
+	int age;
+	String name;
+	int grade;
+
+	Person P1 = new Person(); }
+

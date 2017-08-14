@@ -522,3 +522,207 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-08-07 18:23:04.240 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-07 18:23:19.402
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Srini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-08-08 20:03:13.371 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-08 20:03:50.553
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Srini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2017-08-08 20:25:07.294
+!MESSAGE Unable to connect to repository http://download.eclipse.org/releases/neon/compositeContent.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2017-08-08 20:25:49.402
+!MESSAGE Unable to connect to repository http://download.eclipse.org/eclipse/updates/4.6/compositeContent.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2017-08-08 20:26:31.468
+!MESSAGE Unable to connect to repository http://download.eclipse.org/oomph/updates/milestone/latest/compositeContent.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-08-08 20:53:26.765
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-08-08 21:20:43.530
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2017-08-14 14:08:14.530 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-08-14 14:08:34.808
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Srini'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-08-14 14:24:35.853
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_131\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)

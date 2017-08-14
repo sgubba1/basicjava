@@ -1,0 +1,49 @@
+This is my 6th session notes.
+
+Variable formula: datatype variablename = valueofthevariable;
+Exps: int age = 12; String name = "sai"; double cost = 12.5;
+
+CREATING YOUR OWN DATA TYPE:
+ Note - you cannot use a  string, double, or int to do more than one variable - that's why we are creating a data type to put all info in one
+Exp: Represent a person you should have 5 variables (for _name one variable, age another one etc.,). What we need is a single variable p
+
+Process:
+1) Make the first class - not a public static void class 
+	-This make the class - You can put variables now
+	-You have defined your own data type called Person
+	-Synatx - class yourdatatypename{
+		Program:  class Person{
+  			  } 
+2) Insert info in data type.
+	-Person will be complete
+		Program: 
+			class Person{
+       			 int age;
+        		int name;
+        		int grade;
+        		int height;
+        		int weight;
+    			}
+
+UING DATA TYPE:
+Process: 
+1) Make another class; this one is a public static void class
+2) Prin the statement about the description (System.out.println("Person Description:");
+3) Define the variable (Person person1;) Person and variable is person1 
+4) Add to the line new, (Person person1 = new Person();) This is a new datatype in the class
+5) Add the variables. This is the age,name,grade,etc..
+	Program: 
+		 Person person1 = new Person();
+   		 person1.age = 20;
+  		 person1.name = "sai";
+   		 person1.grade = 7;
+   		 person1.height = 5;
+   		 person1.weight = 100;
+4) Now, to print out statements, do the following for each variable:
+	Program: System.out.println( person1.name + " age is:" + person1.age);
+
+COMMON MISTAKES:
+-Using variables without saying them before.. (int age;)
+-Make sure curly brackets are paired correctly
+
+
