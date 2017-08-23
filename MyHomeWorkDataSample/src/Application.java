@@ -11,7 +11,7 @@ public class Application {
 	
 	System.out.println("Shirt material is " + S1.material);
 	System.out.println("Shirt size is " + S1.size);
-	System.out.println("Shirt cost is" + S1.cost);
+	System.out.println("Shirt cost is " + S1.cost);
 	
 	Shirt S2 = new Shirt();
 	S2.material = "Silk";
@@ -20,7 +20,7 @@ public class Application {
 	
 	System.out.println("Shirt material is " + S2.material);
 	System.out.println("Shirt size is " + S2.size);
-	System.out.println("Shirt cost is" + S2.cost);
+	System.out.println("Shirt cost is " + S2.cost);
 	
 	
 		

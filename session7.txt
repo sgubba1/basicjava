@@ -1,0 +1,158 @@
+This is my seventh session notes.
+
+SYYNTAX
+Important - grammar will reduce errors
+
+WHAT WE LEARNED SO FAR SYNTAX-WISE
+	If statements
+		- if(condition which can say true/false (yes or no)) {
+			//programming statements or printing info..
+		  }
+	If, Else If, Else
+		-  if( ... ){
+   		   }else if(...){
+    		   }else if(...){
+   		   }else if(...){
+		   }else{
+        	   // If none of the above matches things will be executed here.
+   		}
+	For - repetition
+		- for( ; ; ){
+		  }
+	Custom data type (class)  - No public static 
+		- class YourDataTypeHere{
+		  String name;
+		  int ...;
+		  }
+	Using Custom data types
+		-//datatype w=variablename - new datatype();
+		-Person p1  = new person();
+
+CLASS, OBJECT, INSTANCE
+-we learned to create a custom class, and a datatype in that
+
+Class - when crreated the tamlate, this is what we use to base off all the datatypes.
+ - Class class is a blueprint only
+ - Other class is the work
+Note: class is singular.. like person 
+-You can create as many OBJECTS in a class - Many
+OBJECTS  - datatypes
+
+Actions/Methods/Functions/Behavior
+    class Person{
+        String name;
+        int age;
+        int grade;
+    }
+These are all descriptions, but what aout ACTIONS?
+
+Action 
+-  run
+- run for 10 miles
+- get coffee
+- take money and get coffee
+
+CLASSIFYING ACTIONS
+Note: we have been calling this as action but technical term is method ( also called function)
+1)  Actions w/ no input, not outcome
+	-run, read (Only action)
+2) Actions w/ some input, no output
+	-run 10 miles (action: run, input: 10 miles)
+3) Actions w/ no input, but has output
+	-Tell me how many miles you ran today (Action:tell miles u ran,output: ran)
+4) Actions w/ input + output
+	-go to starbucks amd take money and give coffee (Action: get cofee, take money, input: money,output: coffee)
+
+ACTIONS IN PROGRAMMING
+ 
+class Person{
+        // no input
+        // no output
+        void run(){
+
+        }
+
+        // input : bookName
+        // output: none
+        void readBook(String bookName){
+
+        }
+
+        // input: none
+        // output: miles ran
+        int tellMeMilesRanToday(){
+            return 10;
+        }
+
+        // input: money
+        // output: coffee
+        String getCoffee(int money){
+            return "latte";
+        }
+    }
+
+SYNTAX
+
+void actionName(){
+
+}
+
+void actionName(inputVariables){
+
+}
+
+Datatype actionName(){
+    return variableOfReturnDataType;
+}
+
+Datatype actionName(inputVariables){
+    return variableOfReturnDataType;
+}
+
+inputVariables: comma separated variables. You know variables declaration by this time as every variable will be preceded by its daa type
+    (int x,int y)
+Datatype : When you are returning (output) from a action you specify the just data type ( not variable)
+
+variableOfReturnDataType: when there is a output from action you should have return with actual value.
+
+CALCULATOR SAMPLE NOTES
+ADD declares variable z and this variable is alive when it was declared and dead after the end of }. 
+The variable z declared in sub is totally different and hence we had declared again. 
+The z variable is no longer available after the return statement.
+This is called variable scoping ( again remember for now the scope exists between code block { variable live and dead within this.})
+
+dot(.) operator - c.add(2,3)
+
+Scope
+
+The variables declared in code block ( code block starts with { and ends with } )
+
+In methods
+
+    class Calculator{
+        int add(int x, int y){
+            int z;
+            z = x+y;
+            return z;
+        }
+
+        int sub(int x, int y){
+            int z;
+            z = x-y;
+            return z;
+        }
+    }
+
+Uncle's summary:
+Summary
+
+Remember Syntax is important ( try understanding it and practice it.)
+Custom data type technical term is class
+variable for custom data type is nothing but object ( also instance)
+class is Singular Noun ( ex: Person)
+class in Java starts with Uppercase
+action in class describe the behavior
+They are called method ( also function)
+They start with lower case ( run, readBook)
+scoping meaning the variable declared in a code block is alive and dead between { and }
+
