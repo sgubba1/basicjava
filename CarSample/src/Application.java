@@ -8,7 +8,7 @@ public class Application {
 	C1.start();
 	C1.stop();
 	}
-	Boolean start = false;{
+	Boolean start = true;{
 		System.out.println("Sry, You already started the vehicle. Stop it and then start..");
 		}
 

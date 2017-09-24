@@ -1,0 +1,59 @@
+My session 9 notes - I was not here so i will learn the program later..
+
+Java Vocab:
+Object - created variable
+Fields - Defined variable - String name;
+Methods - Actions, Verbs, Syntax
+
+CONNECTION  - Fields and Method
+	- Methods in class can access fields
+	-Fields = Instance Variables
+Exp:   System.out.println("starting:" + name)      // name is defined in the class and method can access it.
+
+BOOLEAN!!!!
+- True or False
+- Exp: CARSAMPLE
+	- boolean isStarted = false;  // not started.
+    	  isStarted = true;       // started.
+
+- CarSample program
+public class Car {
+	String name;
+	int horsePower;
+	boolean isStarted = false;	// used to indicate whether is is started or not.
+
+	void start() {
+		if( isStarted == false) {
+			System.out.println("starting : " + name + " which has:" + horsePower + " horse power");
+			isStarted = true;		// now car started.
+		}else {
+			System.out.println("sorry , you need to stop the car fist.");
+		}
+	}
+
+	void stop() {
+		System.out.println("stopping: " + name);
+		if( isStarted == true) {
+			System.out.println("stopping:" + name);
+			isStarted = false;		// now car stopped.
+		}else {
+			System.out.println("sorry you can only stop if car is already started");
+		}
+
+ENCAPSULATION - OBJECT ORIENTED PROGRAMMING? OOP
+- Everything is based on objects
+EXP:
+ class Person{
+        String name;
+        int age;
+-----------------------
+  class Animal{
+        String name;
+
+        boolean canFly(){
+
+        void readBook(Sring bookName){
+                System.out.println(name + " is reading book:" + bookName)
+-DEFINITION - Putting related data  and behavior/methods together
+
+CONTINUEDDD LATERR _ AFTER CLASS
