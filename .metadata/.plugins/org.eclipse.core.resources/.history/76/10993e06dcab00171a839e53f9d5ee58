@@ -1,0 +1,12 @@
+
+public class Person {
+	String name;
+
+	void printDetails(){
+		System.out.println("Name is " + name);
+		}
+	Person(String input){
+		name = input;
+
+	}
+}

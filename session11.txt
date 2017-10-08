@@ -1,0 +1,36 @@
+These are my 11th session notes:
+
+Common Mistakes
+- remember that a method is like void stop()
+- it is NOT the System.out.println("stopping the car" + name):
+	-that is an instruction
+
+- objects are the cretion after the cookie cutter - c1.name
+- you call them by c1.stop();
+
+CONSTRUCTORS - Use example program
+- The point of it is to show that you cannot continue without putting info that is needed
+
+ class Person{
+	
+    String name;
+	
+	Person(String inputname){
+		name = inputname;
+	}
+
+        void printDetails(){
+            System.out.println("name is=" + name);
+        }
+    }
+
+    class Application{
+        public static void main(String[] args){
+            Person p1 = new Person("sai");
+            p1.printDetails();
+        }
+    }  
+
+- Created name string - inputname is assigned to it too
+- To create person you need to do following: 
+	Person P1 = new Person("bob")

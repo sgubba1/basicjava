@@ -14,4 +14,18 @@
 	</section>
 	<section name="NewWizardAction">
 	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="columns">
+			<item value="246"/>
+			<item value="493"/>
+		</list>
+		<list key="bounds">
+			<item value="284"/>
+			<item value="0"/>
+			<item value="798"/>
+			<item value="553"/>
+		</list>
+	</section>
 </section>

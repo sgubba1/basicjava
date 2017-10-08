@@ -1,0 +1,10 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		Person P1 = new Person("Bob");
+		P1.printDetails();
+	}
+		Person P1 = new Person(8);
+
+}
