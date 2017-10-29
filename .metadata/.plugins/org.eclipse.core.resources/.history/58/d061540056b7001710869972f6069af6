@@ -1,0 +1,18 @@
+
+public class Student {
+	String name;
+
+	Student(String inputname) {
+		inputname = name;
+	}
+	void printInfo() {
+		System.out.println("Name is " + name);
+	}
+	void readBook(String bookName){
+		System.out.println("Read " + bookName);
+
+
+		
+	
+	}
+}

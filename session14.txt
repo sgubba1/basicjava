@@ -1,0 +1,45 @@
+Recap
+- Write methods
+- learned key words
+
+METHOD OVERLOADING:
+Class has MORE THAN ONE METHOD WITH SAME NAME as long as they have different order of parameters (String, int)
+- Start with application:
+ public class Application{
+        public static void main(String[] args){
+            System.out.println("We are going to learn method overloading today");
+- Create Student
+  public class Student{
+        string name;
+        Student(String name){
+            this.name = name;
+- Reading Book VOID
+ public class Student{
+        void readBook(String bookName){
+            System.out.println("Reading book:" + bookName)
+
+public class Application{
+        public static void main(String[] args){
+            Student s1 = new Student();
+            s1.readBook("Harry Potter");
+        }
+NOTE: you can add things to the info needed by doing:
+void readBook(String bookName, int minutesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead);
+
+- Giving choice in reading book
+Student
+void readBook(){
+            System.out.println("Reading my own book for whatever minutes I want and pages");
+Application
+ s1.readBook();      // choice of book, minutes, pages.
+
+Data Types We Know
+ String s1 = "Hello";
+    int x = 10;
+    double d = 10.5;
+    boolean result = true;
+
+CHAR
+char gender = "F";
+

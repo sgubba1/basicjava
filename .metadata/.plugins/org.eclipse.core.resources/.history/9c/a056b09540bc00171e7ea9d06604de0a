@@ -1,0 +1,12 @@
+
+public class Player {
+	String name;
+	int pointsScored;
+ void play(){
+	System.out.println(name + " is playing the game.");
+}
+ int getScore(){
+	 System.out.println(pointsScored + " were scored." );
+	 return pointsScored = 100;
+ }
+}
