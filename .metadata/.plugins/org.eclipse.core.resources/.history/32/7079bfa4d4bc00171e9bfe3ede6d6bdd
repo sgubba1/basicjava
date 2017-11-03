@@ -1,0 +1,39 @@
+
+public class Student {
+	// 15th session
+	String name;
+	int age;
+
+	Student(String inputname) {
+		name = inputname;
+		System.out.println(inputname);
+	}
+
+	Student(String inputname, int inputage) {
+		name = inputname;
+		age = inputage;
+		System.out.println(inputname + " is " + inputage);
+	}
+	void ReadBook(bookName){
+		checkout(bookName);
+		readBook(bookName);
+		checkin(bookName);
+	}
+
+	void ReadBook(String bookName) {
+	}
+
+	void checkout(String bookName) {
+		System.out.println("Checking out book: " + bookName);
+	}
+
+	void readBook(String bookName) {
+		System.out.println("Reading book: " + bookName);
+	}
+
+	void checkin(String bookName) {
+		System.out.println("Checking in " + bookName);
+	}
+
+
+}

@@ -1,0 +1,15 @@
+
+public class Study {
+	String testname;
+	String testsubtopic;
+	Study(String inputtestname){
+		inputtestname = testname;
+	}
+	void studyTest(String testsubtopic){
+		reviewnotes(testsubtopic);
+	}
+	private void reviewnotes(String testname){
+		System.out.println("Review assignments and notes for: " + testsubtopic + " in " + testname);
+	}
+	
+}

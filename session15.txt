@@ -1,0 +1,49 @@
+DIFFERENCE BETWEEN METHOD AND CONSTRUCTOR
+- method name = class name for constructor
+- no return type
+
+CONSTRUCTOR OVERLOADING
+class Student{
+        String name;
+        int age;
+        Student(String name){
+
+CONSTRUCTOR NAMING
+- only used when creating a object
+
+DEFINING VS. CALLING METHODS
+Define (Student Class)= name, inputs (bookname), outputs (none), instructions (readBook)
+Calling (application) = follow the instructions (readBook Harry Potter)
+            this.name = name;
+        }
+        Student(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
+    }
+  ----------------------------
+    class Application{
+        public static void main(String[] args){
+            Student s1 = new Student("Joe");        // Uses the first constructor which takes only name
+            Student s2 = new Student("Joe", 13);    // Uses the second constructor which takes both name and age.
+        }
+
+METHODS CALLING METHODS
+Method x calls 4 other methods. 
+ void readBook(String bookName){
+            checkOutFromLibrary(bookName);
+            readTheBook(bookName);
+  void checkOutFromLibrary(String bookName){
+            System.out.println("Checking out book:" + bookName + " from library");
+        }
+
+        void readTheBook(String bookName){
+            System.out.println("Read the book out book:" + bookName + " now");   
+        }
+
+PRIVATE VOID - hiding details
+- Allows the instruction to only be used inside the same class
+
+ENCAPSULATION
+- packaging related things
+- Hiding details 
