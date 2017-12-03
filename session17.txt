@@ -1,0 +1,24 @@
+17th session
+Recap of Variables
+- Can have one word only (age but not age of kid)
+- must define variable before using it like (int age = 10;)
+- can't define more than once
+- variable is alive until bracket
+- you can define same variable but with different methods (void readBook () vs. void readBook (int minutes)
+
+SOLIVING A GIVEN PROBLEM
+1. Asked the problem
+2. which class (noun) name is appropriate for it (ENCAPSULATION - packaging related stuff)
+3. I need to write a method
+4. Name for method (verb)
+5. Are there any inputs?
+6. Any outputs?
+7. Syntax
+8. Fill inputs
+9. Type output data
+10. If it's returning data, put in a random dummy value for now
+11. Create object in main method
+12. Call method with some parameters and print if any outputs come
+13. Run project.. You'll get dummy value 
+14. Put real logic in
+15. Run now

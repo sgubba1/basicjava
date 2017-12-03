@@ -1,0 +1,4 @@
+- No input, no output: walking
+- Input, no output: sending a letter
+- No input, output: receiving letter
+- Input, output: baking

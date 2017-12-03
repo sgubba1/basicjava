@@ -1,9 +1,0 @@
-
-public class Student {
-	// 15th session
-	String name;
-
-	Student(String inputname, int age) {
-		name = inputname;
-	}
-}

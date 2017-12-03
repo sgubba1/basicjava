@@ -1,0 +1,22 @@
+STATIC METHODS
+Static Methods let you conduct the method, even without an object.
+Exp: Math.add(20,30)
+- Note you cannot put in other info with the static. It will not show up
+
+PREVIOUS NUMBER ADDING
+-addSpecial is part of object, so is previousNumber
+-add like in the notes would access only class stuff since it's static
+
+REUSING IN JAVA
+#1
+JDK (Java Developer Kit)
+- default installation on eclipse
+- Math.abs(30,2)
+
+#2
+Second principle of OOPS
+-see something, liked most of it, but wanna change a bit
+exp:
+Animal class, dog class, application class
+- in animal, u have feedmethod
+- if u add extend to animal class, you can use feed in it as well
