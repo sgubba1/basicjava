@@ -5,8 +5,8 @@ public class Person {
 	Person(int inputage) {
 		inputage = age;
 	}
-
-	void printInfo() {
+	 void printInfo() {
 		System.out.println("Age is " + age);
+
 	}
 }
