@@ -1,0 +1,34 @@
+SESSION 21
+Static Methods
+- not part of objects
+- can't access class methods
+
+Fields - PI
+Can be accessed in all files
+
+PACKAGES
+JDK
+java.util
+java.lang
+PI
+
+Array Data Type
+  int age;
+
+    int favNumbers = new int[4];       // you can have 4 values.
+    favNumbers[0] = 1;      // first number is at 0
+    favNumbers[1] = 12;      // second number is at 1 .
+    favNumbers[3] = 5;      // last number is at 3 
+
+GRAPHICSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+1. Create frame in application with java.awt
+2. setSize -> sets the size of window
+3. say it is true
+EXP:
+public class Application{
+    public static void main(String[] args){
+        java.awt.Frame f = new java.awt.Frame();
+        f.setSize(500, 500);
+        f.setVisible(true);
+    }
+}

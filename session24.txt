@@ -1,0 +1,37 @@
+24th session - First one of the year
+ENUM
+1. eat Fruit java project
+- lot of writing
+- adding fruit takes time
+
+2. adding static int 
+- shared in class, not objects
+
+3. ENUM: 
+- new enum called fruit
+package enumlearn;
+
+public enum Fruit {
+	Apple,
+	Banana
+}
+Lets add new method in Person class like below
+
+	void eatFruit(enumlearn.Fruit f) {
+		System.out.println("eating " + f);
+	}
+Lets use this method in Application class like below
+
+		Person p = new Person();
+		p.eatFruit(enumlearn.Fruit.Apple);
+		p.eatFruit(enumlearn.Fruit.Banana);
+
+Why good?
+- can read the 
+
+-----
+Graphics Calc
+JFrame f = new JFrame();
+    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+- closes at x
+- cant create a fakes, like unknown... 
