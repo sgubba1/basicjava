@@ -1,26 +1,33 @@
-import java.awt.Color;
+// Importing Color and other related classes
+import java.awt.*;
+//Importing Swing apis (JFrame,JPanel,JButton) classes
 import javax.swing.*;
 
 public class Application {
 
 	public static void main(String[] args) {
-		JFrame f = new JFrame();
-		f.setSize(1000,1000);
-		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		// create Panel
-		JPanel p = new JPanel();
-		p.setBackground(Color.CYAN);
-		f.add(p);		// add panel to the frame
-	
-		
-		// create button
-		JButton b = new JButton();
-		b.setText("1");
-		p.add(b);	// adding button to panel
-		
-		// Make visible at the end so that button and panel will show up
-		f.setVisible(true);
-	}
 
+		// Create frame which holds panels	
+		// create frame with title through constructor
+		JFrame frame = new JFrame("Calculator");
+		frame.setSize(1000, 1000);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		GridLayout layout = new GridLayout(1,2);
+		frame.setLayout(layout);
+		
+
+		// create Panel
+		NumberPanel numberPanel = new NumberPanel();
+		numberPanel.setBackground(Color.CYAN);
+		// add panel to the frame
+		frame.add(numberPanel); 
+		
+		OperationPanel operationPanel = new OperationPanel();
+		frame.add(operationPanel);
+		// Make visible at the end so that button and panel will show up
+		frame.setVisible(true);
+	}
 }
+
+

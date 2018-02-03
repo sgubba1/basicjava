@@ -1,0 +1,23 @@
+
+public class Student {
+	String name;
+	int game;
+
+	Student(String name) {
+		this.name = name;
+	}
+	int Play(int game){
+		
+		if(game == 1){
+			System.out.println("Playing B-ball.");
+		}
+		else if(game == 1){
+			System.out.println("Playing Soccer.");	
+		}
+		else{
+			System.out.println("Playing unknown game.");
+		}
+		
+		return 10;
+	}
+}

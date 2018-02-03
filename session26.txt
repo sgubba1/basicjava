@@ -1,0 +1,16 @@
+26 th session.
+
+SWITCH
+
+EG:
+void eatFruit(int fruitType) {
+		switch (fruitType) {
+		case 1:
+			System.out.println("Eating apple.");
+			break;
+		default:
+			System.out.println("Dont' know which fruit.");
+			break;
+		}
+	}
+- Case 1 is like saying eatFruit == 1
