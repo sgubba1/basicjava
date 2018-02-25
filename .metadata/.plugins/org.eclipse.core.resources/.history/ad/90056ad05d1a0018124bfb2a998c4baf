@@ -1,0 +1,14 @@
+
+public class Car {
+
+	void start() {
+		System.out.println("Starting car");
+	}
+
+	int getNumberofWheels() {
+		return 4;
+	}
+	String changeOil(String oilName){
+		return "Success";
+	}
+}

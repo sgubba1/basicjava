@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class ResultPanel extends JPanel  {
+public class ResultPanel extends JPanel {
 	JTextField textfield;
 
 	ResultPanel() {
@@ -25,9 +25,10 @@ public class ResultPanel extends JPanel  {
 		textfield.setText(newNumber);
 
 	}
-	void setOperation(String operation){
+
+	void setOperation(String operation) {
 		String existing = textfield.getText();
-		
+
 		String newOperation = existing + operation;
 		textfield.setText(newOperation);
 	}

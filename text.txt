@@ -1,0 +1,28 @@
+1. RAM - Notepad, CPU ---------- Central Processing Unit - Scratchpad - Book
+2. byte
+3. ASCII - American standard of Coding Information ?
+4. I learn java (or any software) to find a way to interact with the computer.
+5. grammar
+6. EXP 1:
+	for(;;){
+	}
+EXP 2: 
+	if(){
+	}
+	else if(){
+	}
+	else{
+	}
+
+7. public, private
+8. A datatype is the type of object you are using.
+9. int, String
+10. A class is basically a "folder" for all the same information.
+11. An object is a cookie cutter. You cam=n make as many as you want.
+12. The program starts with a main method.
+13. A method is basically a set of instructions for the computer.
+14. no object
+15. 
+
+
+
