@@ -1,9 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class OperationPanel extends JPanel {
-
-	OperationPanel() {
+public class OperationPanel extends JPanel implements ActionListener {
+	ResultPanel nextrpanel;
+	OperationPanel(ResultPanel nextrpanel ) {
+		this.nextrpanel = nextrpanel;
 		// Create layout with 5 rows 1 column
 				GridLayout layout = new GridLayout(5, 1);
 				// Note: You will be setting this layout.
@@ -36,5 +39,12 @@ public class OperationPanel extends JPanel {
 		
 		
 
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		String info = e.getActionCommand();
+		nextrpanel.setOperation(info);
 	}
 }

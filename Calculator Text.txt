@@ -1,0 +1,20 @@
+resultpanel.setnumber(5);
+
+
+
+number = 5
+
+existing = " ";
+number = " "
+"   " (see in the text fieldl)
+newnumber = " ";
+
+number =5
+existing = " ";
+newnumber = " " + 5  (exsint +number)
+settex(newnumber)
+
+number=3
+existing =  "  5"
+newnumber = "   5"  + 3;
+settext(numbern

@@ -1,0 +1,16 @@
+import java.awt.Font;
+
+import javax.swing.*;
+
+public class ResultPanel {
+
+	ResultPanel(){
+		JTextField textfield = new JTextField();
+		textfield.setText("answer");
+		Font font = new Font("Serif", Font.BOLD, 66);
+		textfield.setFont(font);	
+		super.add(textfield);
+			
+		
+	}
+}

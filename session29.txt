@@ -1,0 +1,22 @@
+Interface (Ses. 28)
+Lets a method (play) be used in more than one calss
+- By implementing the interface (implements Playable), it lets play be used
+- last, you create a final class taht will get the object
+EG:
+public class PlayerManager {
+
+	static Playable getPlayer(int option) {
+
+		switch (option) {
+		case 1:
+			return new Person();
+		case 2:
+			return new Dog();
+
+		}
+		return null;
+
+
+Calculator
+- Number panel; displays numbers, and detects button clicks
+- Result panel: displays numbers in text box
