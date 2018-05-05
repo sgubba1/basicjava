@@ -1,0 +1,11 @@
+CRC for other Classes: Srinidhi
+
+OperationPanel
+C: OperationPanel
+R: Displays Panel, which has operations AND counteracts when the user clicks on the operation
+C: ResultPanel
+
+ResultPanel
+C: ResultPanel 
+R: Displays the information from NumberPanel and Operational Panel, AND displays the result of clciking the "="
+C: NA

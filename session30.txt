@@ -1,0 +1,24 @@
+Session 30: I was absent on this day.
+
+CRC --> Class Responsibilities Collaborators
+Class: Name
+Responsibilities: describe what it does
+Collab: List other classes that this class communicates with, except classes that make calls to this
+WHY? FTC, school projects...  Spilt work, and make easy to communicate
+
+CRC for Number Panel
+C: NumberPanel
+R: Shows panel, which has #'s AND Reacts to users clicking
+C: ResultPanel
+
+CRC for Application
+C: Application
+R: Creates teh actual panels, and organizes
+C: RPanel, NPanel, OPanel
+
+Creating specific classes for project:
+- Requirements: Application's to do list
+- Eg: Calc does simple math like 1+4, and multiple numbers like 1*2*5
+   - Displays numbers and operations, and all of that math in a panel too by clicking =
+
+Scope:what application will do and will not do term 

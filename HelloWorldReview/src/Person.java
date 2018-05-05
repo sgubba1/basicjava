@@ -3,6 +3,7 @@ public class Person {
 	String name;
 	int age;
 
+
 	void printDetails(){
 		System.out.println("Name is " + name);
 		System.out.println("Age is " + age);
@@ -10,6 +11,7 @@ public class Person {
 	Person(String input, int input2){
 		name = input;
 		age = input2;
+		System.out.println("hello");
 	}
 
 }

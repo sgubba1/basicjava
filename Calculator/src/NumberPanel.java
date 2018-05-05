@@ -7,6 +7,7 @@ import javax.swing.*;
 
 public class NumberPanel extends JPanel implements ActionListener {
 	ResultPanel resultpanel;
+	ResultPanel nextrpanel;
 	
 	NumberPanel(ResultPanel resultpanel) {
 		this.resultpanel = resultpanel;

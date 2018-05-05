@@ -13,24 +13,28 @@ public class Application {
 		frame.setSize(1000, 1000);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		GridLayout layout = new GridLayout(1,2);
+		GridLayout layout = new GridLayout(2,2);
 		frame.setLayout(layout);
+		
+		AnswerPanel answerpanel = new AnswerPanel();
+		frame.add(answerpanel);
 		
 		ResultPanel resultpanel = new ResultPanel();
 		frame.add(resultpanel);
 		
 		ResultPanel nextrpanel = new ResultPanel();
 		frame.add(nextrpanel);
-		
+				
 		// create Panel
 		NumberPanel numberPanel = new NumberPanel(resultpanel);
 		numberPanel.setBackground(Color.CYAN);
 		// add panel to the frame
-		frame.add(numberPanel); 
+		frame.add(numberPanel);
 		
-		OperationPanel operationPanel = new OperationPanel(nextrpanel);
+		OperationPanel operationPanel = new OperationPanel(resultpanel);
 		frame.add(operationPanel);
 		// Make visible at the end so that button and panel will show up
+
 		frame.setVisible(true);
 	}
 }

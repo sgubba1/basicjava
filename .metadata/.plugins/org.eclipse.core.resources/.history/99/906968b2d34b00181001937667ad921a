@@ -1,0 +1,15 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for (int loop = 3; loop > 0; loop = loop - 1) {
+			for (int total = 0; total>0 ; total= total + loop) {
+				System.out.println(total);
+			}
+
+		}
+
+	}
+
+}

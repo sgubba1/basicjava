@@ -1,0 +1,22 @@
+
+public class Application { //this project can use the number library stuff
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//long max is 9 numbers
+		int count = 0;
+		
+		for(long number = 0;number<100000;number=number+1){
+			NumberFunction N = new NumberFunction();
+			long findNumber = N.reverse(number);
+			System.out.println(N.reverse(number));
+			count = count + 1;
+			System.out.println(count);
+		}
+		
+		
+		
+	}
+
+
+}

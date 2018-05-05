@@ -1,0 +1,22 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int number;
+		for(number = 0; number<= 100; number= number+1){
+			boolean isNumberPrime = false;
+			for(int divisor = 2; divisor < number - 1; divisor = divisor + 1 ){
+			if(number%divisor == 0){
+				isNumberPrime = false;
+				break;
+			}
+			if(isNumberPrime == true){
+				System.out.println(number + " is prime");
+			}
+			}
+		}
+
+	}
+
+}
