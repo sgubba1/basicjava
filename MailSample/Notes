@@ -1,0 +1,4 @@
+The sample mail account should login, with user name and password. They should be able to send and receive emails.
+Classes: Mail, Account, Console (singular nouns)
+ Methods: (verbs)
+ Mail: 

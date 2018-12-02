@@ -1,0 +1,42 @@
+1.int x;
+  x=10;
+
+2. Object Oriented Programming
+
+3. 1. Encapsulation 2. Inheritence 
+
+4. if() {
+}else if(){
+}else{
+}
+
+5. for(;;){
+} 
+
+
+Day 2
+Class Person{
+String Name;
+static int numberOfPersons;
+
+Person(String Name){
+this.Name = Name;
+}
+
+Person(String Name, int Age){
+this.Name=Name;
+this.Age=Age;
+}
+
+static int getNumberOfPersons(){
+	return 0;
+}
+}
+
+
+Class Application{
+Person P1 = new Person("Bob");
+Person P2 = new Person("Bobby", 21);
+
+}
+

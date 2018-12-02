@@ -1,0 +1,15 @@
+import javax.swing. * ;
+public class Applications {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+JFrame J = new JFrame();
+J.setSize(1000, 1000);
+J.setVisible(true);
+
+JPanel P = new JPanel();
+
+
+	}
+
+}

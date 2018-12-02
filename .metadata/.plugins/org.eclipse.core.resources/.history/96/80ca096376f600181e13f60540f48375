@@ -1,0 +1,14 @@
+import java.awt.Color;
+import java.awt.GridLayout;
+import javax.swing.*;
+
+public class Application {
+
+	public static void main(String[] args) {
+JFrame J = new JFrame();
+J.setSize(1000,1000);
+J.setVisible(true);
+J.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+}

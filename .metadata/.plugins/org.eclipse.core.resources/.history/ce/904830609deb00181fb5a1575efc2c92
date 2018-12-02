@@ -1,0 +1,22 @@
+import java.awt.Color;
+
+import javax.swing.*;
+
+public class Applications {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame j = new JFrame();
+		j.setSize(1000, 1000);
+		j.setVisible(true);
+		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel p = new JPanel();
+		p.setSize(100, 100);
+		p.setVisible(true);
+		p.setBackground(Color.OPAQUE);
+		j.add(p);
+
+	}
+
+}

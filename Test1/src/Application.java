@@ -7,7 +7,7 @@ public class Application {
 		int number = 16;
 
 		if( number %2 == 0){
-			System.out.println("Number is even" );
+			System.out.println(number + " is even" );
 		}
 		
 		else{

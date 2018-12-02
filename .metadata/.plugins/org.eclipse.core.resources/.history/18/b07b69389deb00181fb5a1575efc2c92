@@ -1,0 +1,19 @@
+import javax.swing.*;
+
+public class Applications {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame J = new JFrame();
+		J.setSize(1000, 1000);
+		J.setVisible(true);
+		J.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel P = new JPanel();
+		P.setSize(100, 100);
+		P.setVisible(true);
+		J.add(P);
+
+	}
+
+}

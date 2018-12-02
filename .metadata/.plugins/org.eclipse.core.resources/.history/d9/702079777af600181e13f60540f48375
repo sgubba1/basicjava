@@ -1,0 +1,10 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String student1 = School.register("Bob", 13, 123456, 8, "33133 NW ALLEN BLVD.", 503-546-0765);
+		System.out.println(student1);
+	}
+
+}

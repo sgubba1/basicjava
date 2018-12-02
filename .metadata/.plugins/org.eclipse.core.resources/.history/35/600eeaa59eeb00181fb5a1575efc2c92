@@ -1,0 +1,34 @@
+import java.awt.Color;
+
+import javax.swing.*;
+
+public class Applications {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame j = new JFrame();
+		j.setSize(1000, 1000);
+		j.setVisible(true);
+		j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel p = new JPanel();
+		p.setSize(100, 100);
+		p.setVisible(true);
+		p.setBackground(Color.RED); // 3 classes total - panel, frame, color
+		j.add(p);
+		
+		JPanel d = new JPanel();
+		d.setSize(100, 100);
+		d.setVisible(true);
+		d.setBackground(Color.GREEN); // 3 classes total - panel, frame, color
+		j.add(d);
+		
+		JPanel l = new JPanel();
+		l.setSize(100, 100);
+		l.setVisible(true);
+		l.setBackground(Color.BLUE); // 3 classes total - panel, frame, color
+		j.add(l);
+
+	}
+
+}
